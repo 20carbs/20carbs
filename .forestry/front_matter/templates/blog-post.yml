@@ -1,0 +1,31 @@
+---
+label: Blog Post
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: textarea
+  name: description
+  label: Description
+  description: Description of your post
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: Date
+  description: Date Created
+  config:
+    required: true
+- type: file
+  name: image
+  label: Main Image
+  description: Main image for this post.  Appears at the top of the post, and on the
+    list pages.
+- type: tag_list
+  name: categories
+  label: Categories
+  description: Category for this post (eg Keto)
