@@ -27,8 +27,7 @@ fields:
 - type: file
   name: image
   label: Main Image
-  description: Main image for this post.  Appears at the top of the post, and on the
-    list pages.
+  description: Main image for this post.  Used for FB and Pinterest OpenGraph Tags
 - type: field_group
   name: resources
   label: Resources
