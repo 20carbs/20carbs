@@ -10,7 +10,7 @@ googleAnalytics = ""
     favicon = "/favicon.png"
     author = "Amit Gandhi"
   site_description = "lorem ipsum"
-  description = lorem ipsum
+  description = "lorem ipsum"
 
 [outputs]
   home = ["HTML", "RSS"]
