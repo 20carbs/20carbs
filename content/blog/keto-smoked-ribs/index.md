@@ -12,7 +12,7 @@ resources:
   src: images/ribs.jpg
 
 ---
-These ribs are to die for.  They have the right amount of smoke, and if you are like me, you want them to have a good kick to them.
+These ribs are to die for.  I mean, who doesn't love a good rack of ribs.  They have the right amount of smoke, and if you are like me, you want them to have a good kick to them.  And amazingly, these are low carb Keto Friendly.
 
 First, I apply a dry rub and let it sit overnight to absorb all of that flavor.  When ready to cook, I use the 3-2-1 method.  Three hours, cooking at 220 - 230 degrees F.  Apply wood chunks if you want smokiness to the ribs.
 
