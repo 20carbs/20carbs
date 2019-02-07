@@ -14,6 +14,10 @@ fields:
   description: Description of your post
   config:
     required: true
+- type: tag_list
+  name: categories
+  label: Categories
+  description: Category for this post (eg Keto)
 - type: datetime
   name: date
   label: Date
@@ -25,9 +29,5 @@ fields:
   label: Main Image
   description: Main image for this post.  Appears at the top of the post, and on the
     list pages.
-- type: tag_list
-  name: categories
-  label: Categories
-  description: Category for this post (eg Keto)
 pages:
 - content/blog/Test Post/test-post.md
