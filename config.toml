@@ -9,8 +9,8 @@ googleAnalytics = ""
 [params]
     favicon = "/favicon.png"
     author = "Fritzi Gandhi"
-	site_description = "lorem ipsum"
-	description = "lorem ipsum"
+	site_description = "Healthy Keto Recipes Under 20 Carbs"
+  	description = "Healthy Keto Recipes Under 20 Carbs"
 
 [outputs]
   home = ["HTML", "RSS"]

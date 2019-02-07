@@ -8,8 +8,11 @@
 -->
 <html lang='{{ .Site.Language.Lang | default "en-us" }}'>
 	<head>
-		<title>{{ if eq (.Site.Title) (.Title) }}{{ .Site.Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
-		<meta name="description" content="{{ if (.Description) }}{{ .Description }}{{ else }}Keto Recipes{{ end }}">
+		<title>
+				{{ if eq (.Site.Title) (.Title) }}{{ .Site.Title }} &middot; {{ .Site.Params.description }}
+				{{ else }}{{ .Title }} &middot; {{ .Site.Title }} &middot; {{ .Site.Params.description }}{{ end }}
+		</title>
+		<meta name="description" content="{{ if (.Description) }}{{ .Description }}{{ else }}Healthy Keto Recipes{{ end }}">
 		<meta name="p:domain_verify" content="33586c70c7c22eb964eecdf59d0cb90e"/>
 		<meta name="msvalidate.01" content="3E5C24AE74957914451DD85E5044D9E0" />
 		{{ template "_internal/google_analytics_async.html" . }}
