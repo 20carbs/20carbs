@@ -16,10 +16,10 @@
                                 <h1>{{ .Title }}</h1>
                                 <p>{{ .Description }}</p>
                             </header>
-                            {{ $cover := .Resources.GetMatch "*"}}
-                            {{ with $cover }}
-                            {{ $scaled := .Fill "1200x760" }}
-                            <div class="image main"><img src="{{ $scaled.Permalink }}" alt="{{ .Name }}"></div>
+                            {{ $images := .Resources.GetMatch "*"}}
+                            {{ with $images }}
+                                {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" . ) }}
+                                <div class="image main"><img src="{{ $imageResource.RelPermalink }}" alt="{{ .Name }}"></div>
                             {{ end }}
 
                             {{ .Content }}

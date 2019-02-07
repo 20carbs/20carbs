@@ -2,9 +2,6 @@
 title: Keto Smoked Ribs
 description: Smokey BBQ Ribs cooked for 6 hours in a smoker or Big Green Egg.
 date: 2019-02-06 00:00:00 +0000
-image: images/ribs.jpg
-images:
-- images/ribs.jpg
 categories:
 - keto
 resources:
