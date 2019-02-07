@@ -29,5 +29,20 @@ fields:
   label: Main Image
   description: Main image for this post.  Appears at the top of the post, and on the
     list pages.
+- type: field_group
+  name: resources
+  label: Resources
+  description: Image Resource List
+  fields:
+  - type: text
+    name: name
+    label: Name
+    description: Image Caption
+    config:
+      required: true
+  - type: file
+    name: src
+    label: Source
+    description: Image Source
 pages:
 - content/blog/Test Post/test-post.md
