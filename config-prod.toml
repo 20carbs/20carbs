@@ -8,7 +8,7 @@ googleAnalytics = ""
 # set below parameter to define a favicon
 [params]
     favicon = "/favicon.png"
-    author = "Amit Gandhi"
+    author = "Fritzi Gandhi"
   site_description = "lorem ipsum"
   description = "lorem ipsum"
 
