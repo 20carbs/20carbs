@@ -31,7 +31,7 @@ fields:
     source:
       type: documents
 - type: file
-  name: image
+  name: images
   label: Social Image
   description: Social image for this post.  Used for OpenGraph Tags by Pinterest and
     Facebook.
