@@ -1,0 +1,34 @@
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "20 Carbs"
+theme = "massively"
+disqusShortname = "20carbs"
+googleAnalytics = ""
+
+# set below parameter to define a favicon
+[params]
+    favicon = "/favicon.png"
+    author = "Amit Gandhi"
+	site_description = "lorem ipsum"
+	description = "lorem ipsum"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+
+# Below parameters can be set to override default post settings
+[params.posts]
+     foldername = "blog"
+     pagesize = "10"
+     featuredpost = "false"
+
+[permalinks]
+  blog = "/blog/:title/"
+
+[taxonomies]
+  category = "categories"
+
+[languages]
+[languages.en]
+  languageName = "English"
+
