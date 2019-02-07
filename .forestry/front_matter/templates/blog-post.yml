@@ -30,11 +30,6 @@ fields:
     use_select: false
     source:
       type: documents
-- type: file
-  name: images
-  label: Social Image
-  description: Social image for this post.  Used for OpenGraph Tags by Pinterest and
-    Facebook.
 - type: field_group
   name: resources
   label: Resources
@@ -50,5 +45,9 @@ fields:
     name: src
     label: Source
     description: Image Source
+  - type: boolean
+    name: is_pin_friendly
+    label: Is Pin Friendly
+    description: Enable if this image is optimized for Pinterest
 pages:
 - content/blog/Test Post/test-post.md
