@@ -5,6 +5,7 @@ description = "lorem ipsum doler sum"
 image = "/bg.jpg"
 title = "Test Post"
 [resources]
+is_pin_friendly = true
 name = "This is my food"
 src = "/bg-1.jpg"
 
