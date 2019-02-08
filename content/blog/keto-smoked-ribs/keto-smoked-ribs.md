@@ -3,6 +3,10 @@ categories = ["Keto"]
 date = "2019-02-06T05:00:00+00:00"
 description = "Keto Smoked Ribs cooked for 6 hours in a Smoker using the 3-2-1 method.  These ribs are low carb and to die for."
 title = "Keto Smoked Ribs"
+[images]
+is_pin_friendly = false
+name = "Keto Smoked Ribs"
+src = "/uploads/ribs.jpg"
 [resources]
 is_pin_friendly = true
 name = "Keto Smoked Ribs"
