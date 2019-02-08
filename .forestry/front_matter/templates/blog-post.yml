@@ -50,5 +50,4 @@ fields:
     label: Is Pin Friendly
     description: Enable if this image is optimized for Pinterest
 pages:
-- content/blog/Test Post/test-post.md
 - content/blog/keto-smoked-ribs/keto-smoked-ribs.md
