@@ -16,10 +16,9 @@
                                 <h1>{{ .Title }}</h1>
                                 <p>{{ .Description }}</p>
                             </header>
-                            {{ $images := .Resources.GetMatch "*"}}
-                            {{ with $images }}
-                                {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" . ) }}
-                                <div class="image main"><img src="{{ $imageResource.RelPermalink }}" alt="{{ .Name }}"></div>
+                            
+                            {{ with .Params.images }}
+                                <div class="image main"><img src="{{ .src }}" alt="{{ .name }}" /></div>
                             {{ end }}
 
                             {{ .Content }}

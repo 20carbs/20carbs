@@ -3,8 +3,11 @@ categories = ["Keto"]
 date = "2019-02-07T05:00:00+00:00"
 description = "lorem ipsum doler sum"
 title = "Test Post"
-[resources]
+[images]
 is_pin_friendly = true
+name = "This is my food"
+src = "/uploads/bg.jpg"
+[resources]
 name = "This is my food"
 src = "/uploads/bg.jpg"
 
