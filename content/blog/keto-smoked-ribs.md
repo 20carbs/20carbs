@@ -55,3 +55,5 @@ These are the tastiest, most fall of the bone and juiciest ribs you will ever ha
 * If you prefer less smoke, use less wood chunks, and only apply during the first 3 hours.
 * If you want less spice, reduce the amount of chili powder in both the Keto BBQ sauce and the Dry Rub.
 * If you want non Keto, then use real sugar.
+
+ 
