@@ -2,7 +2,6 @@
 categories = ["Keto"]
 date = "2019-02-07T05:00:00+00:00"
 description = "Low Carb Smokey Baby Back Ribs, cooked for 6 hours in a Smoker."
-draft = true
 title = "Keto Smoked Ribs"
 [images]
 is_pin_friendly = false
