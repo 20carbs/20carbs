@@ -3,11 +3,15 @@ categories = ["Keto"]
 date = "2019-02-06 00:00:00 +0000"
 description = "Smokey BBQ Ribs cooked for 6 hours in a smoker or Big Green Egg."
 title = "Keto Smoked Ribs"
-+++
+[resources]
+is_pin_friendly = true
+name = "Keto Smoked Ribs"
+src = "/uploads/ribs.jpg"
 
++++
 These ribs are to die for.  I mean, who doesn't love a good rack of ribs.  They have the right amount of smoke, and if you are like me, you want them to have a good kick to them.  And amazingly, these are low carb Keto Friendly.
 
-First, I apply a dry rub and let it sit overnight to absorb all of that flavor.  When ready to cook, I use the 3-2-1 method.  Three hours, cooking at 220 - 230 degrees F.  Apply wood chunks if you want smokiness to the ribs.
+First, I apply a dry rub and let it sit overnight to absorb all of that flavor.  When ready to cook, I use the 3-2-1 method.  Three hours, cooking at 220 - 230 degrees F.  Apply wood chunks if you want smokiness to the ribs. 
 
 After the 3 hours, take the ribs out and drizzle the BBQ sauce along with some lemon juice.  Wrap the entire rack with foil.  This is going to essentially steam the ribs so that they will be fall of the bone.  Put the ribs back in the Smoker, and let it bake for another 2 hours.
 
