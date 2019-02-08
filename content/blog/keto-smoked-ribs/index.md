@@ -6,7 +6,7 @@ categories:
 - keto
 resources:
 - name: Keto Smoked Ribs
-  src: images/ribs.jpg
+  src: "/uploads/ribs.jpg"
 
 ---
 These ribs are to die for.  I mean, who doesn't love a good rack of ribs.  They have the right amount of smoke, and if you are like me, you want them to have a good kick to them.  And amazingly, these are low carb Keto Friendly.
