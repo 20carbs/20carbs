@@ -31,8 +31,8 @@ fields:
     source:
       type: documents
 - type: field_group
-  name: resources
-  label: Resources
+  name: images
+  label: Images
   description: Image Resource List
   fields:
   - type: text
